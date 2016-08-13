@@ -1,2 +1,2 @@
 # project-greasetrap
-the redesign of frylow usa website
+the redesign of frylow sales website
