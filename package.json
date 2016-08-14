@@ -1,0 +1,40 @@
+{
+  "name": "simple-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple project boilerplate using gulp and associated plug-ins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkornblum/simple-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "gulp"
+  ],
+  "author": "Michael Kornblum and Glenn Martin",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/michaelkornblum/simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/michaelkornblum/simple-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^0.13.7",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
