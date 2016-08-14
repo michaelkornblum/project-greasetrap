@@ -1,0 +1,21 @@
+<!doctype html>
+  <html lang="en">
+
+    <!-- Document head is located in partials directory. This is done so code
+    remains DRY. Change variables below for each page for SEO. -->
+    @@include('partials/head.html', {
+      "title" : "frylosales.com | home",
+      "description" : "extend the life of your commercial cooking oil",
+      "author" : "Frylow Sales Inc."
+    })
+
+    <body>
+      <div class="wrapper">
+        <header id="page-header">
+          <!-- More DRYness for the nav. -->
+          @@include('partials/nav.html')
+        </header>
+      </div>
+      <script src="app.js"></script>
+  </body>
+</html>
