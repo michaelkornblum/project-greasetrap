@@ -1,0 +1,92 @@
+header {
+  background-color: #006a54;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  background-color: #006b20;
+  height: 0;
+}
+
+.open {
+  height: auto;
+}
+
+nav h1, nav ul, nav li, nav a {
+  display: block;
+  width: 100%;
+}
+
+nav li, nav a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+nav li a {
+  padding: 1.25em 0;
+  padding-left: 1.25em;
+  display: block;
+  font-family: arial;
+}
+
+nav h1 {
+  padding: 1em .55em;
+  color: white;
+  height: 100%;
+  font-family: "Donegal One";
+}
+
+nav li:hover {
+  background-color: #004b6b;
+}
+
+nav button {
+  height: 2.5em;
+  width: 2.5em;
+  float: right;
+  position: relative;
+  top: -4.25em;
+  right: 1.5em;
+  background-color: transparent;
+  border: none;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+nav button span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+@media (min-width: 920px) {
+  .wrapper {
+    width: 100%;
+  }
+  #toggle {
+    display: none;
+  }
+
+  nav h1, nav ul, nav li{
+    display: inline-block;
+    width: auto;
+  }
+
+  nav ul {
+    float: right;
+    background-color: #006a54;
+  }
+
+  nav li {
+    padding-right: 1.25em;
+    padding-top: .75em;
+    height: auto;
+    padding-bottom: .5em;
+  }
+}
