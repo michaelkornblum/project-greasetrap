@@ -1,10 +1,6 @@
 var $ = require('jquery');
+var nav = require('./nav.js');
 
 $(document).ready(function () {
-  $('#toggle').on('click', function () {
-    $('nav ul').toggleClass('open');
-  });
-  $('nav li').on('click', function () {
-    $('nav ul').removeClass('open');
-  });
+  nav($);
 });

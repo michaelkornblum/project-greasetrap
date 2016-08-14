@@ -39,6 +39,7 @@ nav h1 {
   color: white;
   height: 100%;
   font-family: "Donegal One";
+  font-size: 2em;
 }
 
 nav li:hover {
@@ -50,7 +51,7 @@ nav button {
   width: 2.5em;
   float: right;
   position: relative;
-  top: -4.25em;
+  top: -5.5em;
   right: 1.5em;
   background-color: transparent;
   border: none;
@@ -63,6 +64,19 @@ nav button span {
   height: 2px;
   width: 100%;
   background-color: white;
+}
+
+#videos {
+  display: none;
+}
+
+#videos.show {
+  display: block;
+}
+
+#videos a{
+  //display: none;
+  padding-left: 1.75em;
 }
 
 @media (min-width: 920px) {
@@ -84,9 +98,36 @@ nav button span {
   }
 
   nav li {
+    padding: 1.4em 0;
     padding-right: 1.25em;
-    padding-top: .75em;
     height: auto;
-    padding-bottom: .5em;
+  }
+
+  #videos{
+    position: absolute;
+    display: block;
+    top: 6.5em;
+
+    display: none;
+    border-top: 4px solid teal;
+  }
+
+  #videos li {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  #videos li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #006a54;
+    padding: 0;
+    padding: 1em;
+  }
+
+  #videos li a:hover {
+    background-color: #004b6b;
   }
 }
