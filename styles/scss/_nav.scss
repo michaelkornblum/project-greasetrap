@@ -26,10 +26,7 @@ nav a {
   padding: 1.25em 0;
   padding-left: 1.25em;
   font-family: arial;
-}
-
-.open {
-  display: block;
+  font-size: 1.25em;
 }
 
 nav li:hover {
@@ -60,44 +57,49 @@ nav button span {
   display: none;
 }
 
-#videos.show {
-  display: block;
-}
-
 #videos a{
-  //display: none;
   padding-left: 1.75em;
 }
 
+.open, #videos.show {
+  display: block;
+}
+
 @media (min-width: 920px) {
-  .wrapper {
-    width: 100%;
-  }
   #toggle {
     display: none;
   }
 
   nav h1, nav ul, nav li{
     display: inline-block;
+    //width: auto;
+  }
+
+  nav li {
     width: auto;
+    height: 3em;
   }
 
   nav ul {
     float: right;
     background-color: #006a54;
+    height: 6.5em;
   }
 
   nav li {
-    padding: 1.4em 0;
-    padding-right: 1.25em;
-    height: auto;
+    height: 100%;
+  }
+
+  nav a {
+    display: block;
+    padding: 0;
+    padding: 2em 1em;
   }
 
   #videos{
     position: absolute;
     display: block;
     top: 6.5em;
-
     display: none;
     border-top: 4px solid teal;
   }
@@ -106,15 +108,16 @@ nav button span {
     display: block;
     padding: 0;
     margin: 0;
+    height: 3.5em;
+    background-color: green;
   }
 
-  #videos li a {
+  #videos a {
     display: block;
-    height: 100%;
-    width: 100%;
     background-color: #006a54;
     padding: 0;
     padding: 1em;
+    height: 100%;
   }
 
   #videos li a:hover {
