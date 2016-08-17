@@ -2,44 +2,34 @@ header {
   background-color: #006a54;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul {
-  background-color: #006b20;
-  height: 0;
-}
-
-.open {
-  height: auto;
-}
-
-nav h1, nav ul, nav li, nav a {
-  display: block;
-  width: 100%;
-}
-
-nav li, nav a {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-nav li a {
-  padding: 1.25em 0;
-  padding-left: 1.25em;
-  display: block;
-  font-family: arial;
-}
-
 nav h1 {
   padding: 1em .55em;
   color: white;
   height: 100%;
   font-family: "Donegal One";
   font-size: 2em;
+}
+
+nav ul {
+  background-color: #006b20;
+  display: none;
+}
+
+nav li, nav a {
+  display: block;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1.25em 0;
+  padding-left: 1.25em;
+  font-family: arial;
+}
+
+.open {
+  display: block;
 }
 
 nav li:hover {
