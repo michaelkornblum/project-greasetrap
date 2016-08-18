@@ -53,15 +53,15 @@ nav button span {
   background-color: white;
 }
 
-#videos {
+#video-links {
   display: none;
 }
 
-#videos a{
+#videos-links a{
   padding-left: 1.75em;
 }
 
-.open, #videos.show {
+.open, #video-links.show {
   display: block;
 }
 
@@ -96,15 +96,16 @@ nav button span {
     padding: 2em 1em;
   }
 
-  #videos{
+  #video-links{
     position: absolute;
     display: block;
     top: 6.5em;
     display: none;
     border-top: 4px solid teal;
+    z-index: 999;
   }
 
-  #videos li {
+  #videos-links li {
     display: block;
     padding: 0;
     margin: 0;
@@ -112,15 +113,15 @@ nav button span {
     background-color: green;
   }
 
-  #videos a {
+  #video-links a {
     display: block;
     background-color: #006a54;
-    padding: 0;
-    padding: 1em;
+    //padding: 0;
+    //padding: 1em;
     height: 100%;
   }
 
-  #videos li a:hover {
+  #video-links li a:hover {
     background-color: #004b6b;
   }
 

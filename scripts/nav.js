@@ -6,7 +6,7 @@ module.exports = function ($) {
 
     $('#video-list').on('click', function (evt) {
       evt.preventDefault();
-      $('#videos').toggleClass('show');
+      $('#video-links').toggleClass('show');
     });
 
 }
