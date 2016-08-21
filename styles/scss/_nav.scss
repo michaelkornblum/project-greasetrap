@@ -13,6 +13,8 @@ nav h1 {
 nav ul {
   background-color: #006b20;
   display: none;
+  position: relative;
+  z-index: 999;
 }
 
 nav li, nav a {

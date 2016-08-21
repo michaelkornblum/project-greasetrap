@@ -1,12 +1,19 @@
-.slideshow img{
+.cycle-slideshow img{
   width: 100%;
   max-width: 100%;
-  min-width: 100%;
-  margin: 0 auto;
-  height: auto;
 }
 
-.slideshow {
+.cycle-slideshow {
   width: 100%;
   max-width: 100%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (max-width: 1128px) {
+  .cycle-slideshow {
+    top: -2em;
+  }
 }
