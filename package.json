@@ -35,6 +35,7 @@
     "gulp-uglify": "^2.0.0",
     "jquery": "^3.1.0",
     "jquery-cycle": "^3.0.3",
+    "jquery-cycle-2": "^1.0.3",
     "run-sequence": "^1.2.2",
     "vinyl-source-stream": "^1.1.0"
   }

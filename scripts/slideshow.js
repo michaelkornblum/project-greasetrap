@@ -1,14 +1,5 @@
-module.exports = function ($) {
-  function showSlide(num) {
-    slides.eq(num).show();
-  }
+require ('jquery-cycle');
 
-  function hideSlides() {
-    slides.hide();
-  }
-
-  var i = 0;
-  var slides = $('.slideshow img');
-  console.log(slides.length);
-
+module.exports = function($) {
+  $('.slideshow').cycle();
 }

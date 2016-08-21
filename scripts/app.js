@@ -1,8 +1,8 @@
 var $ = require('jquery');
 var nav = require('./nav.js');
-require('jquery-cycle');
+var slideshow = require('./slideshow');
 
 $(document).ready(function () {
   nav($);
-  $('.slideshow').cycle();
+  slideshow($);
 });
