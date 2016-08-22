@@ -12,6 +12,14 @@
   overflow: hidden;
 }
 
+.slideshow-captions {
+  color: white;
+  background-color: #222;
+  padding: 1em;
+  font-size: 1.25em;
+  font-family: sans-serif;
+}
+
 @media (max-width: 1128px) {
   .cycle-slideshow {
     top: -2em;
